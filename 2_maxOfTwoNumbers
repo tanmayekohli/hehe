@@ -1,0 +1,6 @@
+great(X,Y) :-
+            X > Y,write(X),write(" is greater than "), write(Y).
+great(X,Y) :- 
+            X < Y, write(Y), write(" is greater than "),write(X).
+
+great(X,Y) :- X =:= Y, write("They both have same value.").
